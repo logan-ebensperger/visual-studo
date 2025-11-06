@@ -1,0 +1,10 @@
+text = input("Type in something: ")
+
+print("The type of what you entered is:", type(text))
+print("Contains only whitespace?", text.isspace())
+print("Contains only numbers?", text.isnumeric())
+print("Contains only alphabetic characters?", text.isalpha())
+print("Is alphanumeric (letters and/or numbers)?", text.isalnum())
+print("Is all uppercase?", text.isupper())
+print("Is all lowercase?", text.islower())
+print("Is title case (e.g. 'Hello', 'Program')?", text.istitle())
